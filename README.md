@@ -2,8 +2,8 @@
 
 ![Pandas Profiling Logo Header](https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/logo-header.png)
 
-``model-loger`` is a Python library for storing model's profile and rapid inter model comparision. Powered by dash and SQLITE3,
-It's compact ,light weight and interactive yet powerful tool to gain usefull insights.  
+``model-logger`` is a Python library for storing model's profile and rapid inter model comparision. Powered by ``dash`` and ``SQLITE3``,
+It's compact ,light weight ,interactive yet powerful tool to gain usefull insights.  
 
 ## Installation
 
@@ -121,7 +121,9 @@ mlog.delete_all()
 
 ``debug``: If true than run the server in debug mode
 
-Note:
+#### Note:
+
+``Do not`` run in debug mode while using it in jupyter notebook 
 ``For jupyter notebook`` --—> click on kernel/interrupt to stop the server .  
 ``for cmd/anaconda prompt`` ----> use [ctrl+c] to stop the server .
 
@@ -132,8 +134,20 @@ mlog.model_profiles('All')
 mlog.model_profiles(5)
 
 ```
+## Fun Part 
+All the ``graphs`` and ``insights`` are interlinked with the ``datatable`` .
+You can do the following operations out of the box and the graphs will change dynamically (as long as the server is running) :
 
-
+| Operation | operator|
+|----------|-------------|
+|'greater than equal to '| '>='|
+|'less than equal to '| '<='|
+|'less than '| '<'|
+|'greater than '| '>'|
+|'not equal to '| '!='|
+|'equal to '| '='|
+|str search |'contains '|
+| date serach|'datestartswith '|
 
 ## Support `model-logger`
 
