@@ -71,26 +71,26 @@ file name . Uses joblib for pickling ,to use it later use joblib.load('name').
 ```
 
 
-###`view_results()` 
+### `view_results()` 
 
 ``generate_csv``: If true than generate the report in the form of a csv
 
 ``csv_name``: Name of the csv file , default -- Model_Report.csv
 
-####Example
+#### Example
 ```python
 
 mlog.view_results(True,'my_report')
 
 ```
 
-###`delete_model()`
+### `delete_model()`
 
 ``Model_name`` : name of the model you want to delete –> use view_results() for referece
 
 ``Model_id`` : id of the model –> use view_results() for referece Flag : If true than will print out the contents of the db.
 
-####Example
+#### Example
 ```python
 
 mlog.delete_model(Model_name = "Mymodel") 
@@ -98,11 +98,11 @@ mlog.delete_model(Model_id = 1)
 
 ```
 
-###`delete_all()`
+### `delete_all()`
 
 ``Flag`` : If true than will print out the contents of the db.
 
-####Example
+#### Example
 ```python
 
 mlog.delete_all()
@@ -110,7 +110,7 @@ mlog.delete_all()
 ```
 
 
-###`model_profiles()`
+### `model_profiles()`
 
 ``batch_size`` :  How many entries to consider at once while comparing via graphs
                   If batch_size less than total number of entries , than it will 
@@ -125,6 +125,15 @@ Note:
 ``For jupyter notebook`` --—> click on kernel/interrupt to stop the server .  
 ``for cmd/anaconda prompt`` ----> use [ctrl+c] to stop the server .
 
+#### Example
+```python
+
+mlog.model_profiles('All')
+mlog.model_profiles(5)
+
+```
+
+
 
 ## Support `model-logger`
 
@@ -135,7 +144,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-##First roll out 
+## First roll out 
 *May 31, 2020 💘*
 
 ## License
