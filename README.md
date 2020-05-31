@@ -124,8 +124,8 @@ mlog.delete_all()
 #### Note:
 
 ``Do not`` run in debug mode while using it in jupyter notebook 
-``For jupyter notebook`` --—> click on kernel/interrupt to stop the server .  
-``for cmd/anaconda prompt`` ----> use [ctrl+c] to stop the server .
+``For jupyter notebook`` click on ``kernel/interrupt`` to stop the server .  
+``for cmd/anaconda prompt`` ----> use ``[ctrl+c]`` to stop the server .
 
 #### Example
 ```python
@@ -140,12 +140,12 @@ You can do the following operations out of the box and the graphs will change dy
 
 | Operation | operator|
 |----------|-------------|
-|'greater than equal to '| '>='|
-|'less than equal to '| '<='|
+|'greater than equal too '| '>='|
+|'less than equal too '| '<='|
 |'less than '| '<'|
 |'greater than '| '>'|
-|'not equal to '| '!='|
-|'equal to '| '='|
+|'not equal too '| '!='|
+|'equal too '| '='|
 |str search |'contains '|
 | date serach|'datestartswith '|
 
