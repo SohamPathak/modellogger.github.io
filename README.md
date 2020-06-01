@@ -3,7 +3,7 @@
 ![model-logger Logo Header](https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/logo-header.png)
 
 ``model-logger`` is a Python library for storing model's profile and rapid inter model comparision. Powered by ``dash`` and ``SQLITE3``,
-It's compact ,light weight ,interactive yet powerful tool to gain usefull insights.  
+It's compact ,light weight ,interactive yet powerful tool to gain useful insights.  
 
 ## Installation
 
@@ -44,6 +44,9 @@ Out of the box you will have the following functionalities:
 |model_profiles| Create a model summary sheet where you can play and gain insights from the different models |
 
 
+<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/modellogger-setup.gif" width="800" />
+
+
 ## Usage
 
 ### `store_model()`
@@ -60,6 +63,20 @@ file name . Uses joblib for pickling ,to use it later use joblib.load('name').
 
 ``Flag`` : If true than will print out the contents of the db.   
 
+`model-logger` currently stores the following attribute:
+
+- Model id
+- Model name(given by user)
+- Scores
+- Number of columns
+- Feature set used for tranning the model
+- model parameters
+- Train size
+- Number of continuous variables
+- Number of catagorical variable
+- Model type
+- Model name
+
 #### Example
 ```python
  gboost = GradientBoostingClassifier() 
@@ -69,6 +86,8 @@ file name . Uses joblib for pickling ,to use it later use joblib.load('name').
  mlog.store_model('my_model_name',gboost,X_train,get_score(gboost),save_pickle = True)
 
 ```
+
+<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/model-store.gif" width="800" />
 
 
 ### `view_results()` 
@@ -83,6 +102,9 @@ file name . Uses joblib for pickling ,to use it later use joblib.load('name').
 mlog.view_results(True,'my_report')
 
 ```
+
+<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/view-results.gif" width="800" />
+
 
 ### `delete_model()`
 
@@ -108,6 +130,8 @@ mlog.delete_model(Model_id = 1)
 mlog.delete_all()
 
 ```
+
+<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/model-delete.gif" width="800" />
 
 
 ### `model_profiles()`
@@ -149,7 +173,9 @@ You can do the following operations out of the box and the graphs will change dy
 |str search |'contains '|
 | date serach|'datestartswith '|
 
-<img alt="HTML" src="https://modellogger.github.io/blob/master/assets/model_profiles.mp4" width="800" />
+
+<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/model-profiles.gif" width="800" />
+
 
 ## Support `model-logger`
 
@@ -165,3 +191,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 [apache-2.0](https://choosealicense.com/licenses/apache-2.0/)
+
+
+![model-logger Logo footer ](https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/end.png)
