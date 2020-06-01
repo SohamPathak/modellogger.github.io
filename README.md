@@ -44,7 +44,7 @@ Out of the box you will have the following functionalities:
 |model_profiles| Create a model summary sheet where you can play and gain insights from the different models |
 
 
-<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/modellogger-setup.gif" width="800" />
+<img alt="model-logger" src="https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/modellogger-setup.gif" width="800" />
 
 
 ## Usage
@@ -87,7 +87,7 @@ file name . Uses joblib for pickling ,to use it later use joblib.load('name').
 
 ```
 
-<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/model-store.gif" width="800" />
+<img alt="model-logger" src="https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/model-store.gif" width="800" />
 
 
 ### `view_results()` 
@@ -103,7 +103,7 @@ mlog.view_results(True,'my_report')
 
 ```
 
-<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/view-results.gif" width="800" />
+<img alt="model-logger" src="https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/view-results.gif" width="800" />
 
 
 ### `delete_model()`
@@ -131,7 +131,7 @@ mlog.delete_all()
 
 ```
 
-<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/model-delete.gif" width="800" />
+<img alt="model-logger" src="https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/model-delete.gif" width="800" />
 
 
 ### `model_profiles()`
@@ -174,7 +174,7 @@ You can do the following operations out of the box and the graphs will change dy
 | date serach|'datestartswith '|
 
 
-<img alt="model-logger" src="https://modellogger.github.io/blob/master/assets/model-profiles.gif" width="800" />
+<img alt="model-logger" src="https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/model-profiles.gif" width="800" />
 
 
 ## Support `model-logger`
