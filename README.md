@@ -1,6 +1,6 @@
 # model-logger
 
-![Pandas Profiling Logo Header](https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/logo-header.png)
+![model-logger Logo Header](https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/logo-header.png)
 
 ``model-logger`` is a Python library for storing model's profile and rapid inter model comparision. Powered by ``dash`` and ``SQLITE3``,
 It's compact ,light weight ,interactive yet powerful tool to gain usefull insights.  
@@ -148,6 +148,8 @@ You can do the following operations out of the box and the graphs will change dy
 |'equal too '| '='|
 |str search |'contains '|
 | date serach|'datestartswith '|
+
+<img alt="HTML" src="https://modellogger.github.io/blob/master/assets/model_profiles.mp4" width="800" />
 
 ## Support `model-logger`
 
