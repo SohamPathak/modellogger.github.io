@@ -33,6 +33,9 @@ mlog = ModelLogger(path) #setup complete
 If you are already using a db created by modelloger you can directly load it by stating it's path
 If you are creating a new project just give location where you want to store the db followed by a name.db .
 
+
+* [Try It Now?](cause where is the fun in reading documentation XD) [![Open In Colab](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/SohamPathak/modellogger.github.io/blob/master/assets/sample/model-logger .ipynb) 
+
 Now you are ready to rock and roll.
 Out of the box you will have the following functionalities:
 | Filename | Requirements|
