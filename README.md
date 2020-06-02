@@ -13,6 +13,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install model-l
 
 [![PyPi Downloads](https://pepy.tech/badge/modellogger)](https://pepy.tech/badge/modellogger)
 [![PyPi Monthly Downloads](https://pepy.tech/badge/modellogger/month)](https://pepy.tech/badge/modellogger/month)
+[![PyPi Weekly Downloads](https://pepy.tech/badge/modellogger/week)](https://pepy.tech/project/modellogger/week)
 [![PyPi Version](https://badge.fury.io/py/modellogger.svg)](https://pypi.org/project/modellogger/)
 
 ```bash
