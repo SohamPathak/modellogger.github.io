@@ -2,7 +2,7 @@
 
 ![model-logger Logo Header](https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/logo-header.png)
 
-``model-logger`` is a Python library for storing model's profile and rapid inter model comparision. Powered by ``dash`` and ``SQLITE3``,
+``model-logger`` is a Python library for storing model's profile and rapid inter model comparison. Powered by ``dash`` and ``SQLITE3``,
 It's compact ,light weight ,interactive yet powerful tool to gain useful insights.  
 
 ## Installation
