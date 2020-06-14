@@ -2,7 +2,7 @@
 
 ![model-logger Logo Header](https://github.com/SohamPathak/modellogger.github.io/blob/master/assets/logo-header.png)
 
-``model-logger`` is a Python library for storing model's profile and rapid inter model comparison. Powered by ``dash`` and ``SQLITE3``,
+``model-logger`` is a Python library for storing model's profile and rapid inter model comparision. Powered by ``dash`` and ``SQLITE3``,
 It's compact ,light weight ,interactive yet powerful tool to gain useful insights.  
 
 ## Installation
@@ -13,8 +13,15 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install model-l
 
 [![PyPi Downloads](https://pepy.tech/badge/modellogger)](https://pepy.tech/badge/modellogger)
 [![PyPi Monthly Downloads](https://pepy.tech/badge/modellogger/month)](https://pepy.tech/badge/modellogger/month)
-[![PyPi Weekly Downloads](https://pepy.tech/badge/modellogger/week)](https://pepy.tech/project/modellogger/week)
 [![PyPi Version](https://badge.fury.io/py/modellogger.svg)](https://pypi.org/project/modellogger/)
+
+
+## Announcements
+### Version v0.2.3 released
+-Support for Catboost
+-Optional Test score added (One of the two scores is compulsory)
+-Test vs Validation Score across models comparision graph added
+-Best model functionality added. 
 
 ```bash
 pip install modellogger
@@ -35,7 +42,7 @@ If you are already using a db created by modelloger you can directly load it by 
 If you are creating a new project just give location where you want to store the db followed by a name.db .
 
 
-* [Try It Now?](cause where is the fun in reading documentation XD) [![Open In Colab](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/SohamPathak/modellogger.github.io/blob/master/assets/sample/model-logger.ipynb) 
+* [Try It Now?](cause where is the fun in reading documentation XD) [![Open In Colab](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/SohamPathak/modellogger.github.io/blob/master/assets/sample/model-logger .ipynb) 
 
 Now you are ready to rock and roll.
 Out of the box you will have the following functionalities:
