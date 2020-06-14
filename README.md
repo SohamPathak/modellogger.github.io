@@ -18,10 +18,10 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install model-l
 
 ## Announcements
 ### Version v0.2.3 released
--Support for Catboost
--Optional Test score added (One of the two scores is compulsory)
--Test vs Validation Score across models comparision graph added
--Best model functionality added. 
+- Support for Catboost
+- Optional Test score added (One of the two scores is compulsory)
+- Test vs Validation Score across models comparision graph added
+- Best model functionality added. 
 
 ```bash
 pip install modellogger
